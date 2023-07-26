@@ -1,0 +1,141 @@
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+html {
+  background-color: #378da0;
+}
+
+body {
+  font-family: Poppins;
+  background-color: #378da0;
+}
+
+.container {
+  padding: 2%;
+  background: #fafafb;
+  margin-top: 2%;
+}
+
+.icn {
+  background-color: #378da0;
+  padding: 14px;
+  color: #fafafb;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.icn:hover {
+  background-color: aliceblue;
+  color: #378da0;
+}
+
+.icn:focus {
+  background-color: #378da0;
+  color: #fafafb;
+}
+
+.hr {
+  background-color: #378da0;
+  color: #378da0;
+  height: 2px;
+}
+
+.icnT {
+  background-color: #378da0;
+  padding: 10px;
+  color: #fafafb;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.icnT:hover {
+  background-color: aliceblue;
+  color: #378da0;
+}
+
+.icnT:focus {
+  background-color: #378da0;
+  color: #fafafb;
+}
+
+.form-control ,.form-select{
+  border: none;
+  border-bottom: 2px solid #378da070;
+  border-radius: 0;
+}
+
+.form-control:focus,.form-select:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-form-control-bg);
+  border-color: none;
+  outline: 0;
+  box-shadow: none;
+  border: none;
+  border-bottom: 2px solid #378da0;
+}
+
+.btn-outline-success{
+    border: #378da0 solid 1px;
+    color: #378da0;
+}
+
+
+.btn-outline-success:hover{
+    border: #378da0 solid 1px;
+    color: #fafafb;
+    background-color: #378da0;
+}
+
+
+
+
+
+@media (max-width: 820px){
+  .tdPh{
+    display: none;
+  }
+    
+}
+
+
+.Vh2{
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #378da0;
+  margin: 1%;
+  margin-bottom: 2%;
+}
+
+
+.Vp{
+  color: #222;
+  margin-left: 3%;
+  padding: 1%;
+  border: 2px solid #378da0;
+}
+
+
+.Fbtn{
+  background-color: #378da0;
+  border: solid 1px transparent;
+  color: #fafafb;
+  padding: 4%;
+  border-radius: 3px;
+  font-weight: 800;
+  width: 100%;
+  transition: .5s;
+  text-align: center;
+}
+
+
+.Fbtn:hover{
+  background-color: #fafafb;
+  border: #378da0 solid 1px;
+  color: #378da0;
+
+}
+
