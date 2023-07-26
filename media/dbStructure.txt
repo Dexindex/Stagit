@@ -1,0 +1,24 @@
+{
+trainee : id | name | dateJoin| email| phone| address| supervisorId | department | university| project| status| evaluation |
+
+
+id: The unique identifier for each trainee (you already have this column).
+name: The name of the trainee (you already have this column).
+dateJoin: The date on which the trainee joined the training program (you already have this column).
+email: The email address of the trainee.
+phone: The phone number of the trainee.
+address: The address where the trainee resides.
+supervisor: The name or ID of the supervisor overseeing the trainee.
+department: The department or team to which the trainee is assigned.
+university: The university or educational institution to which the trainee belongs.
+project: Details of any specific project the trainee is working on.
+status: The current status of the trainee (e.g., "active," "completed," "on leave," etc.).
+NextevaluationDate: Evaluation scores or remarks on the trainee's performance.
+}
+
+
+{
+supervisor:id,name,email,phone
+
+
+}
